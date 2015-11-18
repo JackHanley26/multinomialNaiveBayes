@@ -43,7 +43,7 @@ public class BayesianClass {
         Map<String, Integer> testMap = new HashMap<String, Integer>();
         List<String> testAllWords = new ArrayList<String>();
 
-        bayesianClass.loadFilesFromDirectory(true, "smallTest/neg", testVocab, testMap, testAllWords);
+        bayesianClass.loadFilesFromDirectory(true, "smallTest/pos", testVocab, testMap, testAllWords);
 
         System.out.println("Testing words total " + testVocab.size());
 
